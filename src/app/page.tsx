@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="font-sans min-h-screen">
@@ -18,7 +20,7 @@ export default function Home() {
           <div className="inline-flex items-center justify-center gap-2 rounded-full px-3 py-1 bg-white/80 border border-foreground/10 uppercase tracking-wider text-xs sm:text-sm text-foreground/60">
             <span>Bella & Danny</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight mt-4" style={{fontFamily:"var(--font-display)"}}>We're Getting Married</h1>
+          <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight mt-4" style={{fontFamily:"var(--font-display)"}}>We&apos;re Getting Married</h1>
           <p className="mt-3 text-base sm:text-lg text-foreground/70">Sunday 5th October from 2pm (until 8:30pm)</p>
           <p className="mt-4 text-foreground/70">Thank you so much for joining us — your presence means the world to us and we can’t wait to celebrate together.</p>
           <p className="sr-only">Guest Information</p>
@@ -103,7 +105,7 @@ export default function Home() {
             </ul>
             <div className="mt-4 grid grid-cols-1 gap-4 place-items-center">
               <div className="rounded-xl border border-foreground/10 bg-white/70 aspect-square overflow-hidden mx-auto w-64 sm:w-80">
-                <img src="/photosqrcode.jpeg" alt="Upload photos QR" className="w-full h-full object-contain" />
+                <Image src="/photosqrcode.jpeg" alt="Upload photos QR" width={320} height={320} className="w-full h-full object-contain" />
               </div>
               <div className="flex justify-center">
                 <a className="inline-flex items-center justify-center h-11 px-6 rounded-xl bg-[#f58bb0] text-white font-medium hover:opacity-90 w-full sm:w-auto" href="https://my.guestpix.com/guest/access/121775/MHK9CG1u" target="_blank" rel="noopener noreferrer">Open upload & gallery</a>
@@ -163,7 +165,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8">
           <div className="rounded-3xl shadow-xl backdrop-blur-md border border-foreground/10 bg-white/90 p-6 sm:p-8 relative">
             <span className="section-chip">Events</span>
-            <h2 className="text-2xl sm:text-3xl font-semibold gradient-title">What's On This Week</h2>
+            <h2 className="text-2xl sm:text-3xl font-semibold gradient-title">What&apos;s On This Week</h2>
             <ul className="list-disc list-inside mt-3 space-y-2 marker:text-[#f58bb0] text-foreground/80">
               <li>Wednesday 1st October 7:30 PM — Catch Up Drinks at Storyville</li>
               <li>Saturday 4th October — Bledisloe Cup at Turf Bar</li>
@@ -178,7 +180,7 @@ export default function Home() {
           <div className="rounded-3xl shadow-xl backdrop-blur-md border border-foreground/10 bg-white/90 p-6 sm:p-8 relative">
             <span className="section-chip">Transport</span>
             <h2 className="text-2xl sm:text-3xl font-semibold gradient-title">Getting There (And Back)</h2>
-            <p className="mt-3 text-foreground/70">It's about a 45 minute drive east  of 'Melbourne', depending on traffic. It is the last day of School Holidays so check google maps for an up-to-date estimate</p>
+            <p className="mt-3 text-foreground/70">It&apos;s about a 45 minute drive east  of &apos;Melbourne&apos;, depending on traffic. It is the last day of School Holidays so check google maps for an up-to-date estimate</p>
             <div className="mt-6 grid md:grid-cols-3 gap-6">
               <div>
                 <div className="uppercase tracking-wider text-xs sm:text-sm text-foreground/60">Driving</div>
@@ -203,8 +205,8 @@ export default function Home() {
           <div className="rounded-3xl shadow-xl backdrop-blur-md border border-foreground/10 bg-white/90 p-6 sm:p-8 relative">
             <span className="section-chip">Gifts</span>
             <h2 className="text-2xl sm:text-3xl font-semibold gradient-title">A Wishing Well for Our First Home</h2>
-            <p className="mt-3 text-foreground/70">We aren't having a registry. We're so grateful you're celebrating with us — your presence is already a present!</p>
-            <p className="mt-3 text-foreground/70">Contributing a gift is totally optional. If you're open to it, there will be a wishing well on the night to help us save towards our home deposit — or you may transfer using the details below.</p>
+            <p className="mt-3 text-foreground/70">We aren&apos;t having a registry. We&apos;re so grateful you&apos;re celebrating with us — your presence is already a present!</p>
+            <p className="mt-3 text-foreground/70">Contributing a gift is totally optional. If you&apos;re open to it, there will be a wishing well on the night to help us save towards our home deposit — or you may transfer using the details below.</p>
             <div className="mt-4 rounded-2xl border border-foreground/10 bg-white/70 p-4">
               <div className="font-medium mb-2">Optional bank transfer details</div>
               <div className="flex flex-col gap-2 text-sm text-foreground/80">
