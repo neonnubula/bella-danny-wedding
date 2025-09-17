@@ -169,6 +169,7 @@ export default function Home() {
             <ul className="list-disc list-inside mt-3 space-y-2 marker:text-[#f58bb0] text-foreground/80">
               <li>Wednesday 1st October 7:30 PM — Catch Up Drinks at Storyville</li>
               <li>Saturday 4th October — Bledisloe Cup at Turf Bar</li>
+              <li>Sunday 5th October — Wedding After Party TBC, will be in or near CBD after end of the Reception for those who want to kick on</li>
             </ul>
           </div>
         </div>
