@@ -82,6 +82,7 @@ export default function Home() {
               <li>After the ceremony, we will take a group photo, then most people can head up the hill for drinks and nibbles.</li>
               <li>We will all then go inside for food, speeches and dancing.</li>
               <li>The venue is booked until 8:30 PM, with service shutting off 8:15 PM.</li>
+              <li><strong>Optional:</strong> Wedding After Party TBC, will be in or near CBD after end of the Reception for those who want to kick on (after the bride and groom have left).</li>
             </ul>
           </div>
         </div>
