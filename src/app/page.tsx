@@ -167,9 +167,10 @@ export default function Home() {
           <div className="rounded-3xl shadow-xl backdrop-blur-md border border-foreground/10 bg-white/90 p-6 sm:p-8 relative">
             <span className="section-chip">Events</span>
             <h2 className="text-2xl sm:text-3xl font-semibold gradient-title">What&apos;s On This Week</h2>
+            <p className="mt-3 text-foreground/70">Anyone is welcome to attend any of these events!</p>
             <ul className="list-disc list-inside mt-3 space-y-2 marker:text-[#f58bb0] text-foreground/80">
               <li>Wednesday 1st October 7:30 PM — Catch Up Drinks at Storyville</li>
-              <li>Saturday 4th October — Bledisloe Cup at Turf Bar</li>
+              <li>Saturday 4th October 7:30 PM — Bledisloe Cup at Turf Bar</li>
               <li>Sunday 5th October — Wedding After Party TBC, will be in or near CBD after end of the Reception for those who want to kick on</li>
             </ul>
           </div>
