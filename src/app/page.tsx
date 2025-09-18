@@ -34,7 +34,7 @@ export default function Home() {
             <h2 className="text-2xl sm:text-3xl font-semibold gradient-title">Dress to Impress</h2>
             <ul className="list-disc list-inside mt-4 space-y-2 marker:text-[#f58bb0]">
               <li>Colours: No wrong answers, except white dresses 😉</li>
-              <li>Dress Code: Cocktail/Formal (Gent this just means Suit Up)</li>
+              <li>Dress Code: Cocktail/Formal (Gents this just means Suit Up)</li>
             </ul>
           </div>
         </div>
